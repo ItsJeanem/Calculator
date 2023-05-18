@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="description">
+            <img src="assets/calculator.png" alt="calculator img">
+            <h1>Hello calculator</h1>
+        </div>
+        <div class="calculator">
+            <div class="calculator__standard">
+                <div class="calculator__standard--screen">
+                    <div data-previous-screen class="previous-screen"></div>
+                    <div data-current-screen class="current-screen"></div>
+                </div>
+                <div class="calculator__standard--btn">
+                    <button class="gray-color" data-other-operation>%</button>
+                    <button class="gray-color" data-clear-current>CE</button>
+                    <button class="gray-color" data-all-clear>C</button>
+                    <button class="gray-color" data-delete>Sup</button>
+                    <button class="gray-color" data-other-operation>1/x</button>
+                    <button class="gray-color" data-other-operation>x²</button>
+                    <button class="gray-color" data-other-operation>2√x</button>
+                    <button class="gray-color" data-operation>÷</button>
+                    <button class="white-btn" data-number>7</button>
+                    <button class="white-btn" data-number>8</button>
+                    <button class="white-btn" data-number>9</button>
+                    <button class="gray-color" data-operation>×</button>
+                    <button class="white-btn" data-number>4</button>
+                    <button class="white-btn" data-number>5</button>
+                    <button class="white-btn" data-number>6</button>
+                    <button class="gray-color" data-operation>-</button>
+                    <button class="white-btn" data-number>1</button>
+                    <button class="white-btn" data-number>2</button>
+                    <button class="white-btn" data-number>3</button>
+                    <button class="gray-color" data-operation>+</button>
+                    <button class="white-btn" data-sign>+/-</button>
+                    <button class="white-btn" data-number>0</button>
+                    <button class="white-btn" data-number>.</button>
+                    <button class="blue-color" data-result>=</button>
+                </div>
+            </div>
+            <div class="calculator__historique">
+                <h4>Historique</h4>
+                <div class="history"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
